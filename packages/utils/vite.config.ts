@@ -1,7 +1,17 @@
-import tsdownConfig from "./tsdown.config.js";
-
 import { defineConfig } from "vite-plus";
 
 export default defineConfig({
-  pack: tsdownConfig,
+  pack: {
+    dts: {
+      tsgo: true,
+    },
+    exports: true,
+  },
+  lint: {
+    options: {
+      typeAware: true,
+      typeCheck: true,
+    },
+  },
+  fmt: {},
 });
