@@ -816,8 +816,8 @@ packages:
     resolution: {integrity: sha512-QP88BAKvMam/3NxH6vj2o21R6MjxZUAd6nlwAS/pnGvN9IVLocLHxGYIzFhg6fUQ+5th6P4dv4eW9jX3DSIj7A==}
     engines: {node: '>=12'}
 
-  pixelmatch@7.1.0:
-    resolution: {integrity: sha512-1wrVzJ2STrpmONHKBy228LM1b84msXDUoAzVEl0R8Mz4Ce6EPr+IVtxm8+yvrqLYMHswREkjYFaMxnyGnaY3Ng==}
+  pixelmatch@7.1.1:
+    resolution: {integrity: sha512-ug6CkUcHtxn0umoaqV1VB9+h7IMxRgKQQ/fq4W7ahMnyzDSvQ0vsJRo6BC5s+Gv+RvpriWosDcGkI3L8+8Yxbw==}
     hasBin: true
 
   pngjs@7.0.0:
@@ -1260,7 +1260,7 @@ snapshots:
       '@voidzero-dev/vite-plus-core': 0.1.19(@types/node@25.6.0)(jiti@2.6.1)(typescript@6.0.3)(yaml@2.8.3)
       es-module-lexer: 1.7.0
       obug: 2.1.1
-      pixelmatch: 7.1.0
+      pixelmatch: 7.1.1
       pngjs: 7.0.0
       sirv: 3.0.2
       std-env: 4.1.0
@@ -1299,7 +1299,7 @@ snapshots:
       '@voidzero-dev/vite-plus-core': 0.1.19(@types/node@25.6.0)(jiti@2.6.1)(typescript@6.0.3)(yaml@2.8.3)
       es-module-lexer: 1.7.0
       obug: 2.1.1
-      pixelmatch: 7.1.0
+      pixelmatch: 7.1.1
       pngjs: 7.0.0
       sirv: 3.0.2
       std-env: 4.1.0
@@ -1489,7 +1489,7 @@ snapshots:
 
   picomatch@4.0.4: {}
 
-  pixelmatch@7.1.0:
+  pixelmatch@7.1.1:
     dependencies:
       pngjs: 7.0.0
 
